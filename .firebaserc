@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "chat-8c845",
+    "staging": "chat-8c845"
+  },
+  "targets": {},
+  "etags": {}
+}

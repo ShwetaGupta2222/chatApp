@@ -1,0 +1,108 @@
+.logo{
+    display: block;
+    margin:auto;
+    width:50px;
+    height:50px;
+}
+.my{
+    margin: 10px 10px -1px 10px;
+}
+h1{
+    margin-top: 0 10px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 955px;
+    /* background-color: red; */
+    border: 2px solid black;
+    margin:auto;
+    height:52vh;
+    padding:33px;
+    overflow: auto;
+    margin-bottom: 23px;
+}
+.msg{
+    display: block;
+    background-color: grey;
+    min-width: 24%;
+    max-width: 60%;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.time{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+    margin:0px;
+    color:rgb(45, 44, 44);
+}
+.red{
+    color:#4b1010c6;
+    /* box-shadow: 2px 2px 40px #4b1010c6 ; */
+    background-color: #d42828c6;
+    box-shadow: 2px 2px px #d42828c6;
+
+}
+.green{
+    color:rgba(19, 62, 19, 0.543);
+    background-color: rgba(37, 197, 37, 0.543);
+    box-shadow: 2px 2px 1px rgba(37, 197, 37, 0.543);
+
+
+}
+.side{
+    float: center;
+    clear:both;
+    max-width: 28%;
+    height:35px;
+    /* background-color: rgb(34, 33, 33); */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px auto ;
+    border-radius:7px;
+}
+.right{
+   float :right;
+   clear :both;
+}
+.left{
+    float:left;
+   clear:both;
+}
+.center{
+   margin: auto;
+   clear:both;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+}
+#msginp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+body{
+    background-image: linear-gradient(rgb(255,255,255),rgb(42, 59, 101),rgb(42, 59, 101)) ;
+    /* background-image: linear-gradient(rgb(255,255,255),rgb(0, 0, 0)) ; */
+    height:100vh;
+}
